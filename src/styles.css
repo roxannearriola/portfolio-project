@@ -1,6 +1,47 @@
-/*font-family: 'Gentium Book Basic', serif;*/
+:root {
+	--branding-color: #cdaca3;
+	--dark-branding-color: #5b5a5c;
+	--light-branding-color: #dad3d4;
+	--heading-font: "Pathway Gothic One", sans-serif;
+	--body-font: "Gentium Book Basic", serif;
+}
+
+p {
+	font-family: var(--body-font);
+	font-size: 15px;
+	margin: 0;
+}
 
 h1 {
-	color: aqua;
-	font-family: "Pathway Gothic One", sans-serif;
+	color: var(--dark-branding-color);
+	font-family: var(--heading-font);
+	font-size: 80px;
+	line-height: 1;
+}
+
+.hero {
+	background: rgba(218, 211, 212, 0.75);
+	text-align: center;
+}
+
+.intro {
+	margin: 0 auto;
+	max-width: 450px;
+	padding: 175px 0;
+}
+
+.btn-branding {
+	background-color: var(--branding-color);
+	border-radius: 5px;
+	color: white;
+	font-family: var(--heading-font);
+	margin-top: 20px;
+	padding: 10px 30px;
+	transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+	background-color: transparent;
+	border: 1px solid white;
+	color: var(--branding-color);
 }
