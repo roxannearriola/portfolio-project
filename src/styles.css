@@ -8,7 +8,7 @@
 
 p {
 	font-family: var(--body-font);
-	font-size: 15px;
+	font-size: 18px;
 	margin: 0;
 }
 
@@ -44,4 +44,19 @@ h1 {
 	background-color: transparent;
 	border: 1px solid white;
 	color: var(--branding-color);
+}
+
+@media (max-width: 720px) {
+	p {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.intro {
+		max-width: 300px;
+		padding: 50px 0;
+	}
 }
