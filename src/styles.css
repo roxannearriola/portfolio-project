@@ -6,6 +6,10 @@
 	--body-font: "Gentium Book Basic", serif;
 }
 
+body {
+	background: rgba(218, 211, 212, 0.75);
+}
+
 p {
 	font-family: var(--body-font);
 	font-size: 18px;
@@ -20,7 +24,6 @@ h1 {
 }
 
 .hero {
-	background: rgba(218, 211, 212, 0.75);
 	text-align: center;
 }
 
