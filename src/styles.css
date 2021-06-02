@@ -26,14 +26,14 @@ h1 {
 }
 
 h2 {
-	color: var(--medium-branding-color);
+	color: var(--dark-branding-color);
 	font-family: var(--heading-font);
 	font-size: 35px;
 	text-transform: uppercase;
 }
 
 h3 {
-	color: var(--medium-branding-color);
+	color: var(--dark-branding-color);
 	font-family: var(--heading-font);
 	font-size: 25px;
 	text-transform: uppercase;
