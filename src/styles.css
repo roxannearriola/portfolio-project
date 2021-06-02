@@ -1,6 +1,7 @@
 :root {
 	--branding-color: #cdaca3;
 	--dark-branding-color: #5b5a5c;
+	--medium-branding-color: #928a86;
 	--light-branding-color: #dad3d4;
 	--heading-font: "Pathway Gothic One", sans-serif;
 	--body-font: "Gentium Book Basic", serif;
@@ -11,16 +12,31 @@ body {
 }
 
 p {
+	color: var(--dark-branding-color);
 	font-family: var(--body-font);
 	font-size: 18px;
 	margin: 0;
 }
 
 h1 {
-	color: var(--dark-branding-color);
+	color: var(--medium-branding-color);
 	font-family: var(--heading-font);
 	font-size: 80px;
 	line-height: 1;
+}
+
+h2 {
+	color: var(--medium-branding-color);
+	font-family: var(--heading-font);
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: var(--medium-branding-color);
+	font-family: var(--heading-font);
+	font-size: 25px;
+	text-transform: uppercase;
 }
 
 .hero {
@@ -33,9 +49,8 @@ h1 {
 	padding: 175px 0;
 }
 
-.about-hero {
+.content-container {
 	margin: 0 auto;
-	max-width: 800px;
 	padding: 175px 0;
 }
 
@@ -54,6 +69,12 @@ h1 {
 	background-color: transparent;
 	border: 1px solid white;
 	color: var(--branding-color);
+}
+
+.fas,
+.fab {
+	font-size: 20px;
+	margin-right: 5px;
 }
 
 @media (max-width: 720px) {
