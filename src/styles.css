@@ -39,6 +39,21 @@ h3 {
 	text-transform: uppercase;
 }
 
+.nav-logo,
+.nav-list {
+	color: var(--dark-branding-color);
+	font-family: var(--heading-font);
+	text-transform: uppercase;
+}
+
+.nav-logo {
+	font-size: 50px;
+}
+
+.nav-list {
+	font-size: 18px;
+}
+
 .hero {
 	text-align: center;
 }
