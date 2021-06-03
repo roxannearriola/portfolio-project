@@ -39,6 +39,9 @@ h3 {
 	text-transform: uppercase;
 }
 
+.brand-link {
+	margin: 0;
+}
 .nav-logo,
 .nav-list {
 	color: var(--dark-branding-color);
@@ -52,6 +55,10 @@ h3 {
 
 .nav-list {
 	font-size: 18px;
+}
+
+.active-link {
+	text-decoration: underline;
 }
 
 .hero {
