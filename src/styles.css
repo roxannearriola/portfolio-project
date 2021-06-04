@@ -59,6 +59,7 @@ h3 {
 
 .active-link {
 	text-decoration: underline;
+	color: var(--branding-color) !important;
 }
 
 .hero {
