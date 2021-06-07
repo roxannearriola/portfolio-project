@@ -49,6 +49,20 @@ h4 {
 	font-size: 20px;
 }
 
+footer p {
+	font-size: 14px;
+}
+
+footer a {
+	color: var(--medium-branding-color);
+	text-decoration: none;
+	transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+	color: var(--branding-color);
+}
+
 .brand-link {
 	margin: 0;
 }
@@ -84,7 +98,7 @@ h4 {
 
 .content-container {
 	margin: 0 auto;
-	padding: 175px 0 30px;
+	padding: 175px 0 8px;
 }
 
 .btn-branding,
